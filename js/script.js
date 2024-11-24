@@ -1,4 +1,4 @@
-let ethPriceUSD = 65.00;
+let ethPriceUSD = 85.00;
 let ethPriceINR = ethPriceUSD * 85; // 1 USD = Rs. 85
 let currentPriceUSD = ethPriceUSD;
 let currentPriceINR = ethPriceINR;
